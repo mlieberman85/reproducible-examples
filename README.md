@@ -13,8 +13,8 @@ Inspired by:
 * Nix package manager installed (or on NixOS) and availble in $PATH. See: 
 * Docker, Podman or other docker compatible container manager
     * Your user should also be added to any particular groups in order to run docker without sudo.
-    * Note: Podman seems to accurately generate the digest. With Docker it looks like you need to rely on comapiring the image id.
-* (temporarily) Running on Linux. I don't have logic to run this right now on Debian Nix.
+    * Note: Podman seems to accurately generate the digest. With Docker it looks like you need to rely compairing the image id.
+* (temporarily) Running on Linux. I don't have logic to run this right now on Darwin (i.e. MacOS) Nix.
 * (temporarily) Git. This is required temporarily since I'm pulling the examples from bazel examples repo. Eventually I want to write my own.
     * https://github.com/bazelbuild/examples
     * Using stage 1 cpp-tutorial
