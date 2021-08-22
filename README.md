@@ -54,7 +54,11 @@ This will delete docker images,
 
 1. Run "How To Run"
 2. Run "Cleanup"
-3. Repeat and check hashes
+3. Check hashes of artifacts under releases as well as image info in the packages or repeat steps 1 and 2 and check hashes
+
+*Note*: If the artifact hashes don't line up please open up an issue with what distro Linux + Kernel version of the host is.
+
+For reference the released artifacts were built using RHEL 8 and Kernel version is: 4.18.0-305.3.1.el8_4.x86_64
 
 ### Caveats
 
