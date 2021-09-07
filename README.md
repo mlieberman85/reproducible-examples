@@ -10,7 +10,7 @@ Inspired by:
 
 ### Requirements
 
-* Nix package manager installed (or on NixOS) and availble in $PATH. See: 
+* Nix package manager installed (or on NixOS) and availble in $PATH. See: https://nixos.org/download.html
 * Docker, Podman or other docker compatible container manager
     * Your user should also be added to any particular groups in order to run docker without sudo.
     * Note: Podman seems to accurately generate the digest. With Docker it looks like you need to rely compairing the image id.
@@ -64,4 +64,3 @@ For reference the released artifacts were built using RHEL 8 and Kernel version 
 
 * I'm not sure if the docker image will be reproducible in all cases, e.g. if you're on a different kernel version.
 * Reproducibility expects you to not change Nixpkgs versions between runs as that would pull in updates to the build toolchains.
-* NOTE: Since I'm not 100% sure that all hashes will align depending
