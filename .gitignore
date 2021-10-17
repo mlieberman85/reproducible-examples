@@ -1,1 +1,2 @@
 nix_and_bazel/result
+*.key
