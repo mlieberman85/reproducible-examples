@@ -1,2 +1,3 @@
 nix_and_bazel/result
 *.key
+rust-web-server
